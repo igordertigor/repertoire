@@ -26,6 +26,7 @@ function App() {
     "Adele - Rollin' in the deep",
     "Lionel Richie - Easy",
     "Red Hot Chili Peppers - Under the Bridge",
+    "Stevie Wonder - Sir Duke",
     // jazz
     "Alone together",
     "Stella by startlight",
