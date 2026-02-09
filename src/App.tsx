@@ -25,6 +25,7 @@ function App() {
     "Michael MacDonald - I keep forgettin'",
     "Adele - Rollin' in the deep",
     "Lionel Richie - Easy",
+    "Red Hot Chili Peppers - Under the Bridge",
     // jazz
     "Alone together",
     "Stella by startlight",
