@@ -31,7 +31,8 @@ function App() {
     "Alone together",
     "Stella by startlight",
     "The shadow of your smile",
-    "Summertime"
+    "Summertime",
+    "All of Me"
   ];
   const [index, setIndex] = useState(0);
 
