@@ -34,10 +34,17 @@ function App() {
     "Summertime",
     "All of Me"
   ];
-  const [index, setIndex] = useState(0);
+
+  const getIndex = useCallback(
+    () => Math.floor(mySongs.length * Math.random()),
+    [mySongs],
+  )
+  
+
+  const [index, setIndex] = useState(getIndex());
 
   const handleNewSong = () => {
-    const newIndex = Math.floor(mySongs.length * Math.random());
+    const newIndex = getIndex();
     setIndex(newIndex);
   }
 
